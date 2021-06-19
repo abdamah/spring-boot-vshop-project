@@ -1,3 +1,4 @@
+
 package com.riigsoft.controller;
 
 import com.riigsoft.model.Product;
@@ -8,7 +9,14 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+/**
+ * This is complete API project for learners .
+ * They can practice and keep there resume to job.
+ *
+ * @author Abdallah Mahmoud.
+ * You can contact me through {@link https://www.linkedin.com/in/abdallahmahmud/}
 
+ * */
 @RestController
 @CrossOrigin(origins = "http://localhost:4200")
 @RequestMapping("/product")
